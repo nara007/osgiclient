@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGIClient
+Bundle-SymbolicName: OSGIClient
+Bundle-Version: 1.0.0
+Bundle-Activator: com.sy.osgiclient.MyActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.sy.helloworld,
+ org.osgi.framework;version="1.8.0"
